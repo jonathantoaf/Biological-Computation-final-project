@@ -114,9 +114,6 @@ def is_monotonic(networks: List[GenNetwork], combination: Dict[str, int]) -> boo
 def filter_monotonic_functions(
     networks: List[GenNetwork], output_dict: Dict[str, Dict[str, int]]
 ) -> Dict[str, Dict[str, int]]:
-    """
-    Filter the output dictionary to keep only monotonic functions.
-    """
     monotonic_dict = {}
 
     for func_key, combination in output_dict.items():
