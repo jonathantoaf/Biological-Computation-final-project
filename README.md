@@ -19,7 +19,6 @@ The program takes into account different network configurations with various com
 
    ```bash
    git clone https://github.com/jonathantoaf/Biological-Computation-final-project.git
-   cd monotonic-regulation-finder
    ```
 
 2. **Install Requirements:** Ensure all necessary libraries are installed by running:
