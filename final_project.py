@@ -144,6 +144,8 @@ def plot_monotonic_functions(df: pd.DataFrame):
 
     for x in range(df.shape[1] + 1):
         plt.axvline(x - 0.5, color="black", linewidth=2)
+        
+    plt.savefig("plot.png")
 
     plt.show()
 
